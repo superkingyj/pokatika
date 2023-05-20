@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pokatika
+    username: javauser
+    password: javauser
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate_fomat_sql: true
+      dialect: org.hibernate.dialect.MySQL8InnoDBDialect
+
+logging:
+  level:
+    org.hibernate.SQL: debug
