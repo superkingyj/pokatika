@@ -28,7 +28,7 @@
 <br>
 <br>
 
-# ERD
+# 🥞 ERD
 ![](https://velog.velcdn.com/images/superkingyj/post/7de17f50-9604-4b83-865c-0a9bd696be1c/image.png)
 
 <br>
