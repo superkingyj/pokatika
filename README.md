@@ -8,7 +8,7 @@
 
 ***
 
-<H2>API</H2>
+# API
 ### GET /event/by-wallet/{wallet_address}
 - Input: 
   ```
