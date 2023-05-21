@@ -1,8 +1,8 @@
-# Pokatika
+# 💫 Pokatika
 
 ![](https://velog.velcdn.com/images/superkingyj/post/c1749791-aa5f-4dba-952c-20efa7e0a9d5/image.png)
 
-## Short Description
+## ✨ Short Description
 
 - POKATIKA is a mobile application that connects people at in-person events, enhancing the event experience with NFC card tapping.
 - The minted NFTs contain personalized attendee information, providing an exclusive and customized event experience.
@@ -11,7 +11,25 @@
 
 ***
 
-# API
+# 🎥 Demo Vedio
+![](https://velog.velcdn.com/images/superkingyj/post/5eb29c8b-72f2-4474-a233-e34fccdcc803/image.png)
+
+###[Press this Link]( youtube.com/watch?v=zW9jBGImv2Q)
+
+***
+
+# 🔨 Tech
+- Framework: Spring 2.7.12
+- Language: Java 15
+- IDE: IntelliJ
+- CI/CD: Docker
+- Cloud: Aws EC2, AWS RDS, AWS S3
+
+<br>
+
+***
+
+# 🎆 API
 ### GET /event/by-wallet/{wallet_address}
 - Input: 
   ```
@@ -70,3 +88,4 @@
     "message": "요청을 성공적으로 처리했습니다"
   }
   ```
+
