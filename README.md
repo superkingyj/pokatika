@@ -1,5 +1,6 @@
 # Pokatika
-***
+
+
 
 ## Short Description
 
@@ -31,8 +32,6 @@
         "count": 9,
         "nftImage": {image}
     }
-  
-  
 
 <br>
 
@@ -53,7 +52,6 @@
         "endDate": "23.05.20 12:00",
         "nftImage": {image}
     }
-
 
 <br>
 
