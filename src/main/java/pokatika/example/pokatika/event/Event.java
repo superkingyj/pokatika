@@ -22,12 +22,11 @@ public class Event {
     private Long id;
     private Long count;
     private String eventTitle;
+    private String description;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private String address;
-
-    @Lob
-    private byte[] image;
+    private String imageUrl;
     @OneToMany(mappedBy = "event")
     private List<Participants> participantsList = new ArrayList<>();
     @OneToMany(mappedBy = "event")
