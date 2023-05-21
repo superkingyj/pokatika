@@ -1,10 +1,12 @@
-#Pokatika
+# Pokatika
 ***
 
-##Short Description
+## Short Description
 
 - POKATIKA is a mobile application that connects people at in-person events, enhancing the event experience with NFC card tapping.
 - The minted NFTs contain personalized attendee information, providing an exclusive and customized event experience.
+
+<br>
 
 ***
 
