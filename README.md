@@ -10,11 +10,10 @@
 <br>
 <br>
 
-
 # 🎥 Demo Vedio
 ![](https://velog.velcdn.com/images/superkingyj/post/5eb29c8b-72f2-4474-a233-e34fccdcc803/image.png)
 
-### [Press this Link]( youtube.com/watch?v=zW9jBGImv2Q)
+### [Press this Link](https://www.youtube.com/watch?v=zW9jBGImv2Q)
 
 <br>
 <br>
@@ -25,6 +24,12 @@
 - IDE: IntelliJ
 - CI/CD: Docker
 - Cloud: Aws EC2, AWS RDS, AWS S3
+
+<br>
+<br>
+
+# ERD
+![](https://velog.velcdn.com/images/superkingyj/post/7de17f50-9604-4b83-865c-0a9bd696be1c/image.png)
 
 <br>
 <br>
