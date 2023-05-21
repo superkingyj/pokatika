@@ -8,15 +8,16 @@
 - The minted NFTs contain personalized attendee information, providing an exclusive and customized event experience.
 
 <br>
+<br>
 
-***
 
 # 🎥 Demo Vedio
 ![](https://velog.velcdn.com/images/superkingyj/post/5eb29c8b-72f2-4474-a233-e34fccdcc803/image.png)
 
-###[Press this Link]( youtube.com/watch?v=zW9jBGImv2Q)
+### [Press this Link]( youtube.com/watch?v=zW9jBGImv2Q)
 
-***
+<br>
+<br>
 
 # 🔨 Tech
 - Framework: Spring 2.7.12
@@ -26,8 +27,8 @@
 - Cloud: Aws EC2, AWS RDS, AWS S3
 
 <br>
+<br>
 
-***
 
 # 🎆 API
 ### GET /event/by-wallet/{wallet_address}
