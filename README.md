@@ -1,6 +1,6 @@
 # Pokatika
 
-
+![](https://velog.velcdn.com/images/superkingyj/post/c1749791-aa5f-4dba-952c-20efa7e0a9d5/image.png)
 
 ## Short Description
 
