@@ -18,5 +18,5 @@ public class EventInfoByWalletDto {
     private String walletAddress;
     private String twitterHandle;
     private Long count;
-    private byte[] nftImage;
+    private String nftImageCid;
 }
