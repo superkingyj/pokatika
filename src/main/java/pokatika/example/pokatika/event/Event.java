@@ -26,7 +26,7 @@ public class Event {
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private String address;
-    private String imageUrl;
+    private String cid;
     @OneToMany(mappedBy = "event")
     private List<Participants> participantsList = new ArrayList<>();
     @OneToMany(mappedBy = "event")
