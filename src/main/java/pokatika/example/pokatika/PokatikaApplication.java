@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PokatikaApplication {
 	static{
-		System.setProperty("spring.config.location", "classpath:/application-s3.yml, classpath:/application.yml");
+		System.setProperty("spring.config.location", "classpath:/application-ipfs.yml, classpath:/application.yml");
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(PokatikaApplication.class, args);
