@@ -15,7 +15,7 @@ public class Nft {
     @Id
     @GeneratedValue
     private Long id;
-    private String tokenId;
+    private String cid;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "event_id")
