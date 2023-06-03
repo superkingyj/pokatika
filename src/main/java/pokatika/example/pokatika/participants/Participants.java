@@ -1,9 +1,7 @@
 package pokatika.example.pokatika.participants;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.hibernate.annotations.ColumnDefault;
 import pokatika.example.pokatika.event.Event;
 import pokatika.example.pokatika.nft.Nft;
 
@@ -13,6 +11,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Builder
 public class Participants {
     @Id
     @GeneratedValue
@@ -27,4 +26,12 @@ public class Participants {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "nft_id")
     private Nft nft;
+
+    @JoinColumn(name = "is_rsvp")
+    @ColumnDefault("0")
+    private Boolean isRsvp;
+
+    public void setNft(Nft nft){
+        this.nft = nft;
+    }
 }
