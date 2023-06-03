@@ -126,7 +126,7 @@ public class EventServiceImageRemakeTest {
         try {
             InputStream inputStream = resource.getInputStream();
             this.font = Font.createFont(Font.TRUETYPE_FONT, inputStream);
-            this.font = this.font.deriveFont(15f);
+            this.font = this.font.deriveFont(20f);
             inputStream.close();
         } catch (IOException | FontFormatException e) {
             e.printStackTrace();
@@ -139,9 +139,10 @@ public class EventServiceImageRemakeTest {
         try {
             Graphics graphics = bufferedImage.getGraphics();
 
+            Color color = new Color(34, 79, 195);
             graphics.setFont(this.font);
-            graphics.setColor(Color.blue);
-            graphics.drawString("minji99", 10, 25);
+            graphics.setColor(color);
+            graphics.drawString("minji99", 10, 50);
             graphics.dispose();
 
             File localFileOutput = new File(savePath);
