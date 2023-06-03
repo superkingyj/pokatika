@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class EventInfoByWalletDto {
+public class EventInfo {
     private Long eventId;
     private String eventTitle;
     private String address;
